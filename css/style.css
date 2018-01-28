@@ -876,5 +876,59 @@ ul.social-network li a {
 }
 .social-network li:hover .fa-pinterest-square {
   color: #EA4B49; 
-	
 }
+	
+ul.social_icons,
+ul.tag {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: block;
+}
+
+ul.social_icons li,
+ul.tag li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+ul.social_icons li  a i{
+  border-radius: 50%;
+  color: #FFFFFF;
+  height: 25px;
+  line-height: 25px;
+  font-size: 12px;
+  padding: 0;
+  text-align: center;
+  width: 25px;
+  opacity:.8;
+}
+
+.team .social_icons .fa-facebook:hover, 
+.team .social_icons .fa-twitter:hover, 
+.team .social_icons .fa-google-plus:hover {
+  transform: rotate(360deg);
+  -ms-transform:rotate(360deg);
+  -webkit-transform:rotate(360deg); 
+  transition-duration:2s;
+  transition-property: all;
+  transition-timing-function: ease;
+  opacity:1;
+  transition: all 0.9s ease 0s;
+  -moz-transition: all 0.9s ease 0s;
+  -webkit-transition: all 0.9s ease 0s;
+  -o-transition: all 0.9s ease 0s;
+}
+
+.team .social_icons .fa-facebook {
+  background: #0182c4;
+}
+
+.team .social_icons .fa-twitter {
+  background: #20B8FF
+}
+
+.team .social_icons .fa-google-plus {
+  background: #D34836
+}
+
