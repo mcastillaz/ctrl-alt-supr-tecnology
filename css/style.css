@@ -7,7 +7,7 @@ Last change:	17/08/2015 [...]
 Designed by:	MOOZ Themes / www.MOOZthemes.com
 Primary use:	One page
 
-[Table of contents]
+[of contents]
 
 1. General
 2. Header
@@ -844,8 +844,7 @@ and (max-width : 480px) {
 
 /* Redes Sociales */
 #customers td, #customers th {
-   
-    padding: 8px;
+    padding: 20px;
 }
 ul.social-network li {
 	display:inline;
