@@ -843,6 +843,10 @@ and (max-width : 480px) {
 }
 
 /* Redes Sociales */
+#customers td, #customers th {
+   
+    padding: 8px;
+}
 ul.social-network li {
 	display:inline;
 	margin: 0 50px;	
