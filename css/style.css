@@ -843,6 +843,10 @@ and (max-width : 480px) {
 }
 
 /* Redes Sociales */
+table{
+border-collapse: separate;
+  border-spacing: 10px 5px;	
+}
 #customers td, #customers th {
     padding: 20px;
 }
